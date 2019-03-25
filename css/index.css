@@ -339,15 +339,13 @@ header .logo{
     margin: 0px 0px 0px 0px;
 }
 
-.cta{
- justify-content: center;
-}
+
 .cta img{
  display: none;
 }  
  
 .cta, .main-content{
-    margin: 0px 10px;
+    margin: 50px 10px;
 }
 
 .top-content{
