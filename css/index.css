@@ -252,16 +252,19 @@ footer {
 /* tablet view */
 @media(max-width: 800px){
    .container{
-       margin: 0px 30px;
+       
        width: 800px;
    }
+header .logo{
+    margin: 20px 0px;
+}
 header {
     width: 100%;
     display: inline-flex;
     margin: 21px 0px 0px 0px;
     flex-direction: column-reverse;
     align-items: center;
-    justify-content: flex-center;
+    justify-content: center;
 }
 
 header nav {
@@ -270,7 +273,14 @@ header nav {
     justify-content: space-evenly;
     display: flex;
 }
-
+.main-content {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 75px 30px 35px 30px;
+    padding: 35px 0;
+    font-size: 16px;
+    line-height: 18px;
+}
 header nav a {
     text-decoration: none;
     color: #b0b0b0;
@@ -282,16 +292,20 @@ header nav a:hover {
     color: black;
 }
 
-header .logo {
-    margin: 10px 80px 0px 0px;
-}
 
 .cta{
     justify-content: center;
 }
+.cta .cta-text{
+    margin: 0px;
+}
 .cta img{
     display: none;
 }  
+.middle-img{
+    display: flex;
+    width: 100%;
+}
     
     
 }
@@ -331,7 +345,9 @@ header nav a {
 text-align: center;
 
 }
-
+ .cta .cta-text{
+    margin: 0px;
+}
 header nav a:hover {
  text-decoration: underline;
  color: black;
